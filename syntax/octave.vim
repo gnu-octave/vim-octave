@@ -1,5 +1,3 @@
-if !exists('g:polyglot_disabled') || index(g:polyglot_disabled, 'octave') == -1
-
 " Vim syntax file
 " Language:             Octave
 " Maintainer:           Rik <rik@octave.org>
