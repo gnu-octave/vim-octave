@@ -51,8 +51,11 @@ You can also use Vim 8 built-in package manager:
 
 ```sh
 mkdir -p ~/.vim/pack/default/start
-git clone https://github.com/McSinyx/vim-octave.git ~/.vim/pack/default/start/vim-polyglot
+git clone https://github.com/McSinyx/vim-octave.git ~/.vim/pack/default/start/vim-octave
 ```
+
+Note that this plugin contributes to
+[vim-polyglot](https://github.com/sheerun/vim-polyglot) language pack.
 
 ## Usage
 
