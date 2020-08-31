@@ -63,10 +63,7 @@ Add the following lines to your `vimrc`
 
 ```vim
 " Octave syntax
-augroup filetypedetect
-  autocmd!
-  autocmd BufRead,BufNewFile *.m,*.oct setlocal filetype=octave
-augroup END
+autocmd BufRead,BufNewFile *.m,*.oct set ft=octave
 ```
 
 Omni completion should works out-of-box by setting
