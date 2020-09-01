@@ -59,5 +59,5 @@ Note that this plugin contributes to
 
 ## Usage
 
-Plugin should work out of the box. You can enable omni completion by setting
-`omnifunc=syntaxcomplete#Complete`.
+The plugin should work out of the box.  You can enable omni completion
+by setting `omnifunc=syntaxcomplete#Complete`.
