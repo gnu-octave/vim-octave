@@ -59,12 +59,5 @@ Note that this plugin contributes to
 
 ## Usage
 
-Add the following lines to your `vimrc`
-
-```vim
-" Octave syntax
-autocmd BufRead,BufNewFile *.m,*.oct set ft=octave
-```
-
-Omni completion should works out-of-box by setting
+Plugin should work out of the box. You can enable omni completion by setting
 `omnifunc=syntaxcomplete#Complete`.
