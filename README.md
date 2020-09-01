@@ -59,15 +59,5 @@ Note that this plugin contributes to
 
 ## Usage
 
-Add the following lines to your `vimrc`
-
-```vim
-" Octave syntax
-augroup filetypedetect
-  autocmd!
-  autocmd BufRead,BufNewFile *.m,*.oct setlocal filetype=octave
-augroup END
-```
-
-Omni completion should works out-of-box by setting
-`omnifunc=syntaxcomplete#Complete`.
+The plugin should work out of the box.  You can enable omni completion
+by setting `omnifunc=syntaxcomplete#Complete`.
