@@ -44,14 +44,14 @@ The indentation file provides basic automatic indentation of blocks.
 For example, when using [Plug](https://github.com/junegunn/vim-plug):
 
 ```vim
-Plug 'https://github.com/McSinyx/vim-octave.git', {'for': 'octave'}
+Plug 'https://github.com/gnu-octave/vim-octave.git', {'for': 'octave'}
 ```
 
 You can also use Vim 8 built-in package manager:
 
 ```sh
 mkdir -p ~/.vim/pack/default/start
-git clone https://github.com/McSinyx/vim-octave.git ~/.vim/pack/default/start/vim-octave
+git clone https://github.com/gnu-octave/vim-octave.git ~/.vim/pack/default/start/vim-octave
 ```
 
 Note that this plugin contributes to
